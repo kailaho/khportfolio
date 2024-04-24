@@ -1,0 +1,95 @@
+#wrapper{
+    margin: 0em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#CardContainer{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: 0em;
+   margin-top: 1em;
+   background-color: rgba(240,240, 240); 
+}
+
+.titleCardButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2em;
+    padding: .5em;
+    border-radius: 2em;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(128, 128, 128, 0.5); */
+}
+
+
+
+h1{
+    margin: 1em;
+    justify-content: left;
+    text-align: left;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+    background-color: #77b9f2;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+ul{
+    margin: 0em;
+}
+
+.vidBackground{
+    padding: 1em;
+    margin: 0em;
+    text-align: center;
+}
+
+#homeVid{
+    width: 80%;
+    height: auto;
+    border-radius: 2em;
+    margin-top: 3em;
+}
+
+#stHome{
+    padding: 1em;
+    margin: 2em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#stHomeDesc{
+    width: 50%;
+    padding: 1em;
+    margin-left: 5em;
+}
+
+#stHomeDesc p{
+    margin-left: 2em;
+    font-size: 1.3em;
+
+}
+
+#stCol1 {
+    display:flex;
+    flex-direction: row;
+}
+
+#seeMoreST{
+    text-align: center;
+    margin: 2em;
+}

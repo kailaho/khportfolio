@@ -1,0 +1,91 @@
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.rowFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+#bannerImg{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    opacity: 75%;
+}
+
+#title{
+    background-image: url('../img/bannerImg.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding for better readability */
+    text-align: center;
+    padding: 1em;
+    margin: 0em;
+    font-size: 3em;
+}
+
+#elevatorPitch{
+    padding: 1em 7em 1em 7em;
+    font-size: 1.2em;
+}
+
+
+#video{
+    margin: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+
+.section{
+    margin-left: 2em;
+    padding: 1em 4em 1em 4em;
+}
+
+
+    
+
+#journey{
+    text-align: center;
+}
+
+.oldIdea{
+    width: 20%;
+    height: auto;
+    margin: 1em;
+}
+
+.scaleDown{
+    width: 30%;
+    height: 50%;
+    padding: 1em;
+}
+
+.scaleDown2{
+    width: 20%;
+    padding: 1em;
+}
+
+.scaleDown4{
+    width: 10%;
+    padding: 1em;
+}
+
+.scaleDown3{
+    width: 35%;
+    padding: 1em;
+    margin-right: 2em;
+}
+
+.section li {
+    padding: .8em;
+}
+
+.makeBold{
+    font-weight: bold;
+}

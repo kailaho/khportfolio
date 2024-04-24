@@ -1,0 +1,197 @@
+/* NativePlants.css */
+
+.native-plants-container {
+    margin: 0 auto;
+
+
+  }
+
+p{
+  margin-top: 1em;
+  line-height: 2em;
+  font-size: 1.1em;
+}
+
+.sectionHeading{
+  color: black;
+}
+  
+#goalsSkills{
+    display: flex;
+    flex-direction: row;
+}
+
+#goalsSkills-col1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 1em;
+}
+
+#backButton{
+  text-align: center;
+  justify-content: center;
+  margin-left: 30em;
+  padding: 1em;
+}
+
+#centerButton{
+  display:flex;
+  justify-content: center;
+  padding: 1em;
+}
+.link{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  margin-left: 3em;
+  border-radius: 1em;
+  font-weight: bold;
+}
+
+.goal{
+  padding: 1em;
+  text-decoration: none;
+}
+
+  .detailh1 {
+    /* Title styles */
+    color: black;
+  }
+
+  h2{
+    background-color: rgb(240,240,240);
+    text-align: left;
+    padding: 0em;
+    margin: 0em;
+    color: black;
+  }
+  
+  h3{
+    color: black;
+  }
+
+  .description {
+    font-style: italic;
+    font-size: 1.2em;
+    padding-left: 2em;
+    margin-left: 1em;
+    margin-top: 0em;
+    
+  }
+  
+  .skills-section {
+    
+    margin: 1em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    padding: 0em;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .skill-item {
+    background-color: #ccc;
+    padding: .75em;
+    margin: 1em;
+    margin-top: 0em;
+    border-radius: 2em;
+    font-weight: bold;
+  }
+  
+  .goals-section {
+    margin: 2em;
+    margin-left: 6em;
+    background-color: black;
+    border-radius: 2em;
+    padding: 1em;
+    width: 50%;
+  }
+
+  #projectGoals{
+    background-color: black;
+    color: white;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 1.2em;
+  }
+  
+  #goalList {
+    list-style-type: disc;
+    margin-left: 3em;
+    padding: 1em;
+    font-size: 1.1em;
+    color: white;
+  }
+  
+  .design-process-section {
+    margin: 2em;
+   
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+  img.iteration{
+    width: 50%;
+    margin-left: 2em;
+    border-radius: 1em;
+  }
+  
+  .ux-testing-section {
+    display: flex;
+    margin: 2em;
+    
+    padding: 1em;
+    border-radius: 1em;
+    
+  }
+
+  .development-section{
+    margin: 2em;
+    
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+  #uxText{
+    margin: 2em;
+  }
+  
+  img.final-product {
+    width: 55%;
+    margin: 2em;
+    border-radius: 1em;
+  }
+
+  .final-images-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 2em;
+  }
+
+  .slideShowButton{
+    background-color: black;
+    color: white;
+    border: none;
+    margin:1em;
+    height: 30%;
+    margin-top: 23em;
+    padding: 1em;
+    border-radius: 2em;
+  }
+  
+  .learning-outcomes-section {
+    margin: 2em;
+   
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+  

@@ -1,0 +1,14 @@
+.seeMoreButton{
+    font-weight: bold;
+    width: 20%;
+    background-color: black;
+    padding: 1em;
+    font-size: 14px;
+    color: white;
+    border-radius: 1.5em;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1em;
+}
