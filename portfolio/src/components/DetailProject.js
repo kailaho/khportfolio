@@ -9,12 +9,12 @@ import TitleAnimation from './TitleAnimation';
 
 const DetailProject = ({projectTitle, projectDesc, projectLink, skills, goals, designProcess, img1, ux, development, finalImages, learningOutcomes, backToLink, backToWhere}) => {
 
-        const [currentImageIndex, setCurrentImageIndex] = useState(0);
+        // const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-        const changeImage = (direction) => {
-          const newIndex = (currentImageIndex + direction + finalImages.length) % finalImages.length;
-          setCurrentImageIndex(newIndex);
-        };
+        // const changeImage = (direction) => {
+        //   const newIndex = (currentImageIndex + direction + finalImages.length) % finalImages.length;
+        //   setCurrentImageIndex(newIndex);
+        // };
 
         useEffect(()=>{
           window.scrollTo(0, 0);
@@ -75,9 +75,18 @@ const DetailProject = ({projectTitle, projectDesc, projectLink, skills, goals, d
       </div>
 
       <div className="final-images-section">
-        <button className ="slideShowButton" onClick={() => changeImage(-1)}>⏴</button>
+        {/* <button className ="slideShowButton" onClick={() => changeImage(-1)}>⏴</button>
         <img className="final-product" src={finalImages[currentImageIndex]} alt="Final Product" />
-        <button className ="slideShowButton" onClick={() => changeImage(1)}>⏵</button>
+        <button className ="slideShowButton" onClick={() => changeImage(1)}>⏵</button> */}
+        <div id="finalImageFlex">
+        <img className="finalImage" src={finalImages[0]} alt="final image 1"/>
+        <img  className="finalImage" src={finalImages[1]} alt="final image 2"/>
+        </div>
+        
+        <div id="finalImageFlex">
+        <img className="finalImage" src={finalImages[2]} alt="final image 1"/>
+        {/* <img  className="finalImage" src={finalImages[1]} alt="final image 2"/> */}
+        </div>
       </div>
     
 

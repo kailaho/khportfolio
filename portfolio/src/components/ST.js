@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import React, {useState, useRef, useEffect} from "react";
 import shineTime2 from '../img/shineTime2.jpg';
 import '../styles/ST.css';
 import bannerImg from '../img/bannerImg.jpg';
@@ -33,6 +33,9 @@ import withCedar2 from '../img/withCedar2.JPG';
 
 
 const ST = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
 
 
     return(

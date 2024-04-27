@@ -1,0 +1,15 @@
+#detailWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.colFlex2{
+    display: flex;
+    flex-direction: column;
+}
+
+.rowFlex2{
+    display: flex;
+    flex-direction: row;
+}

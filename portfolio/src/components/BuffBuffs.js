@@ -1,5 +1,5 @@
 import React from 'react';
-import DetailProject from './DetailProject';
+import DetailProject2 from './DetailProject2';
 import BuffBuffsHero from '../img/buffBuffsHero.png';
 import BuffBuffs1 from '../img/buffBuffs1.png';
 import BuffBuffs2 from '../img/buffBuffs2.png';
@@ -7,7 +7,7 @@ import BuffBuffs2 from '../img/buffBuffs2.png';
 const BuffBuffs = () => {
     return (
         <>
-        <DetailProject
+        <DetailProject2
             projectTitle={"BuffBuffs - CU Boulder Rec Center App Redesign"}
             projectDesc={"A redesign and reimagination of the CU Boulder rec center apps to help students better navigate and use the rec center"}
             projectLink={"https://www.figma.com/proto/4K26xQw9PMb2tV2rbAivBt/Buff-Buffs-Project-Milestone-4?type=design&node-id=2-2&t=bKZjqP3zXo6Px5PN-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&mode=design"}
@@ -21,7 +21,7 @@ const BuffBuffs = () => {
             learningOutcomes={"Throughout the course of this project, I honed my skills in Figma to create strong prototypes that allowed for the best user testing and final outcome. It was a good experience to work as part of a design team and sharpen my skills in collaboration and communication when it comes to UX/UI Design."}
             backToLink={"/uxuiprojects"}
             backToWhere={"back to UX/UI projects"}
-        ></DetailProject>
+        ></DetailProject2>
         </>
       );
 };

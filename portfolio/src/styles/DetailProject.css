@@ -54,7 +54,7 @@ p{
 }
 
 .goal{
-  padding: 1em;
+  padding: .5em;
   text-decoration: none;
 }
 
@@ -105,16 +105,16 @@ p{
   
   .goals-section {
     margin: 2em;
+    margin-top: 5em;
     margin-left: 6em;
-    background-color: black;
     border-radius: 2em;
     padding: 1em;
     width: 50%;
+    color: black;
   }
 
   #projectGoals{
-    background-color: black;
-    color: white;
+    color: black;
     margin-left: 1em;
     margin-top: 1em;
     font-size: 1.2em;
@@ -123,9 +123,9 @@ p{
   #goalList {
     list-style-type: disc;
     margin-left: 3em;
-    padding: 1em;
+    padding: .2em;
     font-size: 1.1em;
-    color: white;
+    color: black;
   }
   
   .design-process-section {
@@ -138,7 +138,6 @@ p{
   img.iteration{
     width: 50%;
     margin-left: 2em;
-    border-radius: 1em;
   }
   
   .ux-testing-section {
@@ -164,16 +163,16 @@ p{
   img.final-product {
     width: 55%;
     margin: 2em;
-    border-radius: 1em;
   }
 
   .final-images-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding: 1em;
-    border-radius: 1em;
-    margin: 2em;
+    margin-top: 0em;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 
   .slideShowButton{
@@ -194,4 +193,14 @@ p{
     border-radius: 1em;
   }
 
-  
+  #finalImageFlex{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+  }
+
+  .finalImage{
+    width: 45%;
+    height: auto;
+    padding: 1em;
+  }
